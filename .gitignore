@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Virtual Environment
+api-dev/
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+app.log
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Pre-commit
+.pre-commit-config.yaml
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
